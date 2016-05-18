@@ -1,0 +1,128 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+	margin: 0;
+	font-family: Helvetica, Tahoma, Arial, "Microsoft YaHei", "微软雅黑", SimSun, "宋体", STXihei, "华文细黑", Heiti, "黑体", sans-serif;
+
+}
+
+/********************* logo && nav *****************************/
+#logo {
+	position: relative; //relative很重要，响应式，随缩放位移
+	float: left;
+	left: 100px;
+	top: -950px;
+	text-decoration: none; //去掉下划线
+}
+
+.up-nav {
+	height: 31px;
+	width: 500px;
+	padding: 9px 10px 0 0;
+	position: relative; //relative很重要，响应式，随缩放位移
+	float: right;
+	top: -950px;
+	// left: 0%;
+}
+
+.nav-ul {
+	list-style: none; //去掉列表样式
+}
+
+.nav-li {
+	float: left;
+	height: 14px;
+	padding: 0 10px;
+}
+
+.nav-link {
+	text-decoration: none;
+	cursor: auto;
+	&:hover {
+		color: #ffffff;
+	}
+}
+
+/***************** page one ****************************/
+
+.page-one {
+	height: 700px;
+	width: 100%;
+}
+
+.page-one-bg {
+	height: 1000px;
+	width: 100%;
+	// background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	// border-radius: 10px 100px 100px 100px;
+
+}
+
+#pageonebg {
+	background-image: url("city.jpeg"); 
+}
+
+.page-one-title {
+	text-align: center;
+	position: relative;
+	top: -850px;
+	font-size: 4em;
+	color: #000000;
+	letter-spacing:2px;  //字符间距
+	word-spacing:3px;    //单词间距
+	font-style: italic;  //文本倾斜
+	// font-family: Helvetica, Tahoma, Arial, "Microsoft YaHei", "微软雅黑", SimSun, "宋体", STXihei, "华文细黑", Heiti, "黑体", sans-serif;
+}
+
+.page-one-text {
+	text-align: center;
+	position: relative;
+	top: -900px;
+	font-size: 2em;
+	color: #000000;
+	letter-spacing:2px;  //字符间距
+	word-spacing:3px;    //单词间距
+	font-style: italic;  //文本倾斜
+}
+
+.page-one-text-p {
+	display: inline-block;
+	text-align: left;
+
+}
+
+/***************** page two ****************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

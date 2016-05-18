@@ -1,0 +1,2 @@
+module EssayPagesHelper
+end
