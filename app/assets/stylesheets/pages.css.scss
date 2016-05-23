@@ -1,6 +1,8 @@
 // Place all the styles related to the Pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+@import "bootstrap-sprockets"; 
+@import "bootstrap";
 
 body {
 	margin: 0;
@@ -10,11 +12,12 @@ body {
 
 /********************* logo && nav *****************************/
 #logo {
-	position: relative; //relative很重要，响应式，随缩放位移
-	float: left;
+	width: 60px;
+	height: 60px; 
+	position: absolute; //relative很重要，响应式，随缩放位移
 	left: 100px;
-	top: -950px;
-	text-decoration: none; //去掉下划线
+	top:  50px;
+    cursor: pointer;
 }
 
 .up-nav {
@@ -23,7 +26,7 @@ body {
 	padding: 9px 10px 0 0;
 	position: relative; //relative很重要，响应式，随缩放位移
 	float: right;
-	top: -950px;
+	top: -940px;
 	// left: 0%;
 }
 
@@ -42,13 +45,14 @@ body {
 	cursor: auto;
 	&:hover {
 		color: #ffffff;
+		text-decoration: none; //去掉下划线
 	}
 }
 
 /***************** page one ****************************/
 
 .page-one {
-	height: 700px;
+	height: 1000px;
 	width: 100%;
 }
 
@@ -67,9 +71,10 @@ body {
 }
 
 .page-one-title {
+	width: 100%;
 	text-align: center;
-	position: relative;
-	top: -850px;
+	position: absolute;
+	top: 150px;
 	font-size: 4em;
 	color: #000000;
 	letter-spacing:2px;  //字符间距
@@ -79,9 +84,10 @@ body {
 }
 
 .page-one-text {
+	width: 100%;
 	text-align: center;
-	position: relative;
-	top: -900px;
+	position: absolute;
+	top: 300px;
 	font-size: 2em;
 	color: #000000;
 	letter-spacing:2px;  //字符间距
@@ -101,6 +107,48 @@ body {
 
 
 
+.page_three {
+	height: 1000px;
+	width: 100%;
+	position: relative;
+	margin-top: 0px;
+	background-color: #000000;
+}
+
+.page_three_image {
+	height: 1000px;
+	width: 80%;
+	margin:auto;
+	margin-top: 0; 
+	// background-size: cover;
+}
+
+
+
+
+
+
+
+#ICP-filling {
+	height: 100px;
+	width: 100%;
+	background-color: #B0C4DE;
+	position: relative;
+	top: 100px;
+}
+
+.ICP-filling-text {
+	position: relative;
+	width: 100%;
+	text-align: center;
+	padding-top: 40px;
+	// line-height: 200px; 
+	// padding-top: 30px;
+	font-size: 1em;
+	color: #ffffff;
+	letter-spacing:2px;  //字符间距
+	word-spacing:3px;    //单词间距
+}
 
 
 

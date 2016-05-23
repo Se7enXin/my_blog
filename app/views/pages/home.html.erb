@@ -1,8 +1,8 @@
 <!--  *********************** first page ***********************  -->
 <div class="page-one">
   <div class="page-one-bg" id="pageonebg"></div>
-  <div>
-    <%= link_to "Se7enxin", root_path, id: "logo" %>
+  <div id="logo">
+    <%= link_to (image_tag "7.png", alt: "7", :size => "60x60"), root_path %>
   </div>
   <div>
     <nav class="up-nav">
@@ -25,7 +25,57 @@
       May you share freely, never taking more than you give.
     </p>
   </div>
-</div>  
+</div> 
+
+
+<div class = "page_three">
+  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    </ol>
+
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <%= image_tag "cross.jpeg", alt: "first page", class: "page_three_image" %>
+        <div class="carousel-caption">
+          1
+        </div>
+      </div>
+      <div class="item">
+        <%= image_tag "notebook.jpeg",alt: "second page", class: "page_three_image" %>
+        <div class="carousel-caption">
+          2
+        </div>
+      </div>
+      <div class="item">
+        <%= image_tag "trans.jpeg",alt: "third page", class: "page_three_image" %>
+        <div class="carousel-caption">
+          3
+        </div>
+      </div>
+    </div>
+
+    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+
+
+<!--  *********************** ICP filling *********************** -->
+<div id="ICP-filling">
+  <div class="ICP-filling-text">
+    <p>&copy;京ICP备16024851号</p>
+  </div>
+</div>    
 
 
 
@@ -48,12 +98,7 @@
 
 
 
-
-
-
-
-
-
+ -->
 
 
 
