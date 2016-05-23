@@ -7,11 +7,10 @@
   <div>
     <nav class="about-up-nav">
       <ul class="about-nav-ul">
-        <li class="about-nav-li"><%= link_to 'notes', notes_path, class: "nav-link" %></li>
-        <li class="about-nav-li"><%= link_to 'essay', essay_path, class: "nav-link" %></li>
-        <li class="about-nav-li"><%= link_to 'design', design_path, class: "nav-link" %></li>
-        <li class="about-nav-li"><%= link_to 'life', life_path, class: "nav-link" %></li>
-        <li class="about-nav-li"><%= link_to 'about', about_path, class: "nav-link" %></li>
+        <li class="about-nav-li"><%= link_to '关于我', "#about-me", class: "nav-link" %></li>
+        <li class="about-nav-li"><%= link_to '技能', "#skills", class: "nav-link" %></li>
+        <li class="about-nav-li"><%= link_to '作品', "#portfolio", class: "nav-link" %></li>
+        <li class="about-nav-li"><%= link_to '联系', "#contact-me", class: "nav-link" %></li>
       </ul>
     </nav>
   </div>
@@ -27,24 +26,68 @@
   </div>
 </div>  
 
-<div class="about-me">
+<div class="about-me" id="about-me">
   <h1 class="about-me-title">关于我</h1>
   <p class="about-me-text">Se7enXin，一名在北京的嵌入式软件工程师(Embedded Software Developer)。 </p>
 </div>
 
-<div class="skills">
+<div class="skills" id="skills">
   <div class="skills-bg" id="skillsbg">
     <div class="skills-title">开发技能栈</div>
     <div class="skills-box">
       <div class="skills-text">
-        123
+        <ul>
+          <li>嵌入式linux下应用软件开发（非常熟悉）</li>
+          <li>Linux / OSX ( 熟悉 )</li>
+          <li>开源硬件：Raspberry Pi、ZLG、NanoPc、Nano Pi等（熟悉）</li>
+          <li>QT、GTK UI开发（熟悉）</li>
+          <li>Git</li>
+          <li>Ruby on Rails（熟悉）</li>
+          <li>HTML5（熟悉）</li>
+          <li>CSS（熟悉）</li>
+          <li>JavaScript</li>
+          <li>Bootstrap（熟悉）</li>
+          <li>SQL Server</li>
+        </ul>
       </div>
     </div>
   </div>
 </div>
 
+<div class="portfolio" id="portfolio">
+  <div class="portfolio-bg" id="portfoliobg">
+    <div class="portfolio-title">个人主要作品</div>
+    <div class="portfolio-box">
+      <div class="portfolio-text">
+        <ul>
+          <li>嵌入式linux下应用软件开发（非常熟悉）</li>
+          <li>Linux / OSX ( 熟悉 )</li>
+          <li>开源硬件：Raspberry Pi、ZLG、NanoPc、Nano Pi等（熟悉）</li>
+          <li>QT、GTK UI开发（熟悉）</li>
+          <li>Git</li>
+          <li>Ruby on Rails（熟悉）</li>
+          <li>HTML5（熟悉）</li>
+          <li>CSS（熟悉）</li>
+          <li>JavaScript</li>
+          <li>Bootstrap（熟悉）</li>
+          <li>SQL Server</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="contact-me" id="contact-me">
+  <h1 class="contact-me-title">联系我</h1>
+  <p class="contact-me-text">Se7enXin，一名在北京的嵌入式软件工程师(Embedded Software Developer)。 </p>
+</div>
 
 
+<footer class="about-footer">
+  <div class="about-footer-text">
+    <p>&copy; 京ICP备16024851号</p>
+  </div>
+</footer>
 
 
 
