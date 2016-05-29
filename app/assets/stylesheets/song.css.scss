@@ -1,0 +1,37 @@
+.song-page {
+	height: 1000px;
+	width: 100%;
+}
+
+.song-page-bg {
+	height: 3000px;
+	width: 100%;
+	// background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	// border-radius: 10px 100px 100px 100px;
+
+}
+
+#songpagebg {
+	background-image: url("眉间雪.jpg"); 
+}
+
+.song {
+	
+
+}
+.lyc {
+	width: 60%;
+	margin: 0 auto;
+	text-align: left;
+	position: relative;
+	top: -2900px;
+	font-size: 1.4em;
+	color: #000000;
+	line-height:30px;
+	letter-spacing:2px;  //字符间距
+	word-spacing:3px;    //单词间距
+	font-family: Helvetica, Tahoma, Arial, "Microsoft YaHei", "微软雅黑", SimSun, "宋体", STXihei, "华文细黑", Heiti, "黑体", sans-serif;
+	// border: 0.5px solid white;
+}
