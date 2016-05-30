@@ -35,8 +35,8 @@ set :linked_dirs, fetch(:linked_dirs, []).push('log', 'tmp/pids', 'tmp/cache', '
 # Default value for keep_releases is 5
 # set :keep_releases, 5
 
-set :passenger_environment_variables, { :path => '/usr/lib/ruby/vendor_ruby/phusion_passenger/locations.ini/bin:$PATH' }
-set :passenger_restart_command, '/usr/lib/ruby/vendor_ruby/phusion_passenger/locations.ini/bin/passenger-config restart-app'
+# set :passenger_environment_variables, { :path => '/usr/lib/ruby/vendor_ruby/phusion_passenger/locations.ini/bin:$PATH' }
+# set :passenger_restart_command, '/usr/lib/ruby/vendor_ruby/phusion_passenger/locations.ini/bin/passenger-config restart-app'
 
 
 namespace :deploy do
