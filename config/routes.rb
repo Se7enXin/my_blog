@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
   
+  get 'song_taste/meijianxue'
+
   get 'essay_pages/helloworld'
 
   root              'pages#home'
@@ -11,6 +13,8 @@ Rails.application.routes.draw do
 
   #命名路由：调用新方法时返回的url（浏览器显示的），控制器#动作，新定义的路径方法名
   get 'essay/helloworld', to: 'essay_pages#helloworld', as: :essay_helloworld
+
+  get 'life/songtaste/meijianxue', to: 'song_taste#meijianxue', as: :life_songtaste_meijianxue
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
