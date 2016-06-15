@@ -1,7 +1,28 @@
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <%= link_to (image_tag "7.png", alt: "7", :size => "60x60"), root_path %>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+         <ul class="nav navbar-nav navbar-right">
+           <li><%= link_to 'notes', notes_path, class: "nav-link" %></li>
+           <li><%= link_to 'essay', essay_path, class: "nav-link" %></li>
+           <li><%= link_to 'design', design_path, class: "nav-link" %></li>
+           <li><%= link_to 'life', life_path, class: "nav-link" %></li>
+           <li><%= link_to 'about', about_path, class: "nav-link" %></li>
+         </ul>
+        </div><!-- /.navbar-collapse -->
+    </div>
+</nav>
+
+
+
 <div class="container">
-  <div class="row">
+  <div class="row text-center" >
     <div class="col-md-4" class="songtaste">
       <%= link_to (image_tag "7.png", alt: "7", :size => "60x60", class: "songtaste-image"), root_path %>
+      <div></div>
     </div>
     <div class="col-md-4">
       <%= link_to (image_tag "7.png", alt: "7", :size => "60x60"), root_path %>
@@ -11,5 +32,3 @@
     </div>
   </div>
 </div>
-
-<%= image_tag ("trans.jpg") %>
